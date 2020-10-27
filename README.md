@@ -3,3 +3,7 @@ Detect clickjacking vulnerablities from list of urls. It simply check the repons
 
 # How to install
 ```go get github.com/noobexploiter/clickjackingXD```
+
+# How to use
+```cat urls.txt | clickjackingXD -c COOKIE=COOKIE -t 20```
+Specify the Cookie Header using -c 
